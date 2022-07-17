@@ -12,7 +12,7 @@ export const Login = () => {
         try {
             await auth.authenticate(values.email, values.password);
             // caso der certo o login, mando o usuário para a pagina profile
-            navigate('/profile');
+            navigate('/megasena');
 
             
         } catch (error) {
